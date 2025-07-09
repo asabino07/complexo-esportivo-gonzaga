@@ -254,10 +254,9 @@ const Dashboard = () => {
         <Toolbar>
           <Sports sx={{ mr: 2 }} />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Sistema de Gerenciamento de Quadras
+            Sistema Complexo Gonzaga
           </Typography>
-          <IconButton
-            color="inherit"
+          <IconButton            color="inherit"
             onClick={handleRefresh}
             disabled={loading}
             sx={{ mr: 1 }}
